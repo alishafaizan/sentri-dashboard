@@ -35,8 +35,8 @@ def show_sidebar():
             },   
         )
         # Add footer at the bottom of sidebar
-        from utils import add_sidebar_footer
-        add_sidebar_footer(logo_path="MCLogo.png", powered_by="Powered by Mastercard")
+        #from utils import add_sidebar_footer
+        #add_sidebar_footer(logo_path="MCLogo.png", powered_by="Powered by Mastercard")
 
         return app
 
@@ -61,4 +61,4 @@ else:
         st.session_state.authenticated = False
         st.session_state.username = None
         st.success("✅ You have been logged out.")
-        st.rerun()
+        st.rerun(

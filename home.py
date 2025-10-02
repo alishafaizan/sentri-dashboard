@@ -75,12 +75,10 @@ def dashboard():
         st.error(f"Error fetching beneficiaries: {e}")
 
 def app():
-    
+    from utils import add_header_logo
+    add_header_logo()
     # Check if username exists in session_state
     if "username" in st.session_state and st.session_state.username:
         st.title(f"Welcome back, {st.session_state.username}!")
     else:
-        st.info("Welcome! Please log in to access all features.")
-    dashboard()
-    
-
+        st.info("Welcome! Please 

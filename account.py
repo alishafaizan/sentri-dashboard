@@ -2,6 +2,8 @@ import streamlit as st
 from firebase_config import auth_client  # Use auth from firebase_config
 
 def app():
+    from utils import add_header_logo
+    add_header_logo()
     st.title("🔑 Account Login / Sign Up")
 
     choice = st.selectbox("Choose Action", ["Login", "Sign Up"])
@@ -28,5 +30,4 @@ def app():
             try:
                 user = auth_client.create_user(email=email, password=password, uid=username)
                 st.success("✅ Account created! Please log in.")
-            except Exception as e:
-                st.error(f"Signup failed: {e}")
+            except Exce

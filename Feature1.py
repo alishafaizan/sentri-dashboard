@@ -2,6 +2,8 @@ import streamlit as st
 from firebase_config import db  # import Firestore connection
 
 def app():
+    from utils import add_header_logo
+    add_header_logo()
     st.title("Add Beneficiary")
 
     # Input fields
@@ -25,4 +27,3 @@ def app():
             except Exception as e:
                 st.error(f"Error: {e}")
         else:
-            st.warning("Please enter both name and IBAN.")
