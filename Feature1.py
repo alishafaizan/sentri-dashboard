@@ -27,3 +27,4 @@ def app():
             except Exception as e:
                 st.error(f"Error: {e}")
         else:
+            st.warning("Please enter both name and IBAN.")

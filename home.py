@@ -81,4 +81,7 @@ def app():
     if "username" in st.session_state and st.session_state.username:
         st.title(f"Welcome back, {st.session_state.username}!")
     else:
-        st.info("Welcome! Please 
+        st.info("Welcome! Please log in to access all features.")
+    dashboard()
+    
+

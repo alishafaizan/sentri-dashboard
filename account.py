@@ -30,4 +30,5 @@ def app():
             try:
                 user = auth_client.create_user(email=email, password=password, uid=username)
                 st.success("✅ Account created! Please log in.")
-            except Exce
+            except Exception as e:
+                st.error(f"Signup failed: {e}")
