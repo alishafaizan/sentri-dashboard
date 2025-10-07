@@ -76,4 +76,35 @@ def dashboard(user_id):
     
     st.markdown("---")
     
-    # 
+    # Fetch beneficiaries
+    try:
+        beneficiaries_ref = db.collection("users").document(user_id).collection("beneficiaries")
+        docs = beneficiaries_ref.stream()
+        
+        beneficiaries = []
+        for doc in docs:
+            beneficiaries.append(doc.to_dict())
+        
+        if beneficiaries:
+            st.subheader("💳 Your Beneficiaries:")
+            df = pd.DataFrame(beneficiaries)
+            df.index = df.index + 1
+            df.index.name = "No."
+            st.table(df)
+        else:
+            st.info("You have not added any beneficiaries yet.")
+    
+    except Exception as e:
+        st.error(f"Error fetching beneficiaries: {e}")
+
+def app():
+    add_header_logo()
+    
+    if "username" in st.session_state and st.session_state.username:
+        st.title(f"Welcome back, {st.session_state.username}!")
+        user_id = st.session_state.username
+    else:
+        st.info("Welcome! Please log in to access all features.")
+        return
+    
+    dashboard(user_id)

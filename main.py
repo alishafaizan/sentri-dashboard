@@ -61,4 +61,4 @@ else:
         st.session_state.authenticated = False
         st.session_state.username = None
         st.success("✅ You have been logged out.")
-        st.rerun(
+        st.rerun()
