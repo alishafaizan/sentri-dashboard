@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import home, account, Feature1, ReportFraud, AccountBalance
+import home, account, Feature1, ReportFraud, AccountBalance, sendamount
 
 # ------------------ Page Config ------------------
 st.set_page_config(
@@ -53,6 +53,8 @@ else:
         home.app()
     elif selected == "Add Beneficiary":
         Feature1.app()
+    elif selected == "Send Amount":
+        sendamount.app()
     elif selected == "Account Balance":
         AccountBalance.app()
     elif selected == "Report Fraud":
