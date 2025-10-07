@@ -1,6 +1,24 @@
 import streamlit as st
 from PIL import Image
 
+def add_header_logo(logo_path="MCLogo.png", powered_by="Powered by Mastercard"):
+    """Add logo and text at top-right of the webpage"""
+    # Create columns with the right one for logo
+    col1, col2 = st.columns([5, 1])
+    
+    with col2:
+        try:
+            logo = Image.open(logo_path)
+            logo_col, text_col = st.columns([1, 2])
+            with logo_col:
+                st.image(logo, width=40)
+            with text_col:
+                st.markdown(f"<p style='font-size:11px; color:gray; margin-top:10px;'>{powered_by}</p>", 
+                           unsafe_allow_html=True)
+        except:
+            st.markdown(f"<p style='text-align:center; font-size:10px; color:gray;'>{powered_by}</p>", 
+                       unsafe_allow_html=True)
+
 def add_footer(logo_path="MCLogo.png", powered_by="Powered by Mastercard"):
     # Using st.markdown with HTML/CSS for bottom-right placement
     footer_html = f"""

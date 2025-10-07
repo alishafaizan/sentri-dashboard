@@ -2,72 +2,95 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-from utils import add_footer 
-from firebase_config import db  # Firestore connection
+from utils import add_header_logo
+from firebase_config import db
 
-
-def dashboard():
-    st.title("📊 Dashboard")
-
-    st.markdown("---")  # Divider
-
-    # Sample account summary
-    st.subheader("💰 Account Summary")
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric("Checking Account", "$5,240.50", "+2.5%")
-    col2.metric("Savings Account", "$12,430.75", "+1.8%")
-    col3.metric("Credit Card Balance", "$1,230.00", "-0.5%")
-
-    st.markdown("---")
-
-    # Quick actions
-    st.subheader("⚡ Quick Actions")
-    action_col1, action_col2, action_col3, action_col4 = st.columns(4)
-
-    if action_col1.button("Transfer Money"):
-        st.info("Navigate to 'Add Beneficiary' to transfer money.")
-    if action_col2.button("Pay Bills"):
-        st.info("Bill payment feature coming soon.")
-    if action_col3.button("View Statements"):
-        st.info("Statement feature coming soon.")
-    if action_col4.button("Report Fraud"):
-        st.info("Navigate to 'Report Fraud' to report an issue.")
-
-    st.markdown("---")
-
-    # Optional: recent transactions (dummy table)
-    st.subheader("📜 Recent Transactions")
-    transactions = {
-        "Date": ["2025-09-28", "2025-09-27", "2025-09-25"],
-        "Description": ["Amazon Purchase", "Salary Credit", "Utility Bill"],
-        "Amount": ["- $120.50", "+ $3,000.00", "- $150.00"],
-        "Balance": ["$5,120.00", "$8,120.50", "$8,270.50"]
-    }
-    st.table(transactions)
-    st.markdown("---")
-
-    # Fetch beneficiaries for this user
+def dashboard(user_id):
+    
+    # Fetch REAL account summary
     try:
-        user_id = st.session_state.username 
+        balance_ref = db.collection("users").document(user_id).collection("account").document("balance")
+        balance_doc = balance_ref.get()
+        
+        if balance_doc.exists:
+            balances = balance_doc.to_dict()
+            checking = balances.get("checking", 0)
+            savings = balances.get("savings", 0)
+            credit_card = balances.get("credit_card", 0)
+            user_iban = balances.get("iban", "N/A")
+        else:
+            # Initialize if not exists
+            import random
+            user_iban = f"AE{''.join([str(random.randint(0, 9)) for _ in range(8)])}"
+            checking, savings, credit_card = 5000.00, 12430.75, 1230.00
+            db.collection("users").document(user_id).collection("account").document("balance").set({
+                "checking": checking,
+                "savings": savings,
+                "credit_card": credit_card,
+                "iban": user_iban
+            })
+    except Exception as e:
+        st.error(f"Error fetching balance: {e}")
+        checking, savings, credit_card = 0, 0, 0
+        user_iban = "N/A"
+    
+    st.subheader("💰 Account Summary")
+    
+    # Display IBAN
+    st.info(f"🏦 Your IBAN: **{user_iban}**")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    col1.metric("Checking Account", f"${checking:,.2f}")
+    col2.metric("Savings Account", f"${savings:,.2f}")
+    col3.metric("Credit Card Balance", f"${credit_card:,.2f}")
+    
+    st.markdown("---")
+    
+    
+    # Fetch REAL transactions
+    st.subheader("📜 Recent Transactions")
+    try:
+        transactions_ref = db.collection("users").document(user_id).collection("transactions")
+        docs = transactions_ref.order_by("date", direction="DESCENDING").limit(10).stream()
+        
+        transactions = []
+        for doc in docs:
+            data = doc.to_dict()
+            transactions.append({
+                "Date": data['date'].strftime("%Y-%m-%d %H:%M"),
+                "Description": data['description'],
+                "Type": "Sent ⬆️" if data['type'] == "sent" else "Received ⬇️",
+                "Amount": f"- ${data['amount']:,.2f}" if data['type'] == "sent" else f"+ ${data['amount']:,.2f}",
+                "Balance": f"${data['balance_after']:,.2f}"
+            })
+        
+        if transactions:
+            df = pd.DataFrame(transactions)
+            st.dataframe(df, use_container_width=True, hide_index=True)
+        else:
+            st.info("No transactions yet. Start by sending money to a beneficiary!")
+            
+    except Exception as e:
+        st.error(f"Error fetching transactions: {e}")
+    
+    st.markdown("---")
+    
+    # Fetch beneficiaries
+    try:
         beneficiaries_ref = db.collection("users").document(user_id).collection("beneficiaries")
         docs = beneficiaries_ref.stream()
-
+        
         beneficiaries = []
         for doc in docs:
             beneficiaries.append(doc.to_dict())
-
+        
         if beneficiaries:
             st.subheader("💳 Your Beneficiaries:")
-            # Convert list of dicts to DataFrame
             df = pd.DataFrame(beneficiaries)
-            
-            # Reset index to start from 1
             df.index = df.index + 1
-            df.index.name = "No."  # optional: name the index column
-            
+            df.index.name = "No."
             st.table(df)
-            #st.table(beneficiaries)   # or use st.dataframe for more functionality
         else:
             st.info("You have not added any beneficiaries yet.")
     
@@ -75,12 +98,13 @@ def dashboard():
         st.error(f"Error fetching beneficiaries: {e}")
 
 def app():
+    add_header_logo()
     
-    # Check if username exists in session_state
     if "username" in st.session_state and st.session_state.username:
         st.title(f"Welcome back, {st.session_state.username}!")
+        user_id = st.session_state.username
     else:
         st.info("Welcome! Please log in to access all features.")
-    dashboard()
+        return
     
-
+    dashboard(user_id)
