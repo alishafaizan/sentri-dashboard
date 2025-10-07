@@ -17,7 +17,8 @@ def analyze_beneficiary(username, beneficiary_name, iban):
 
 def app():
     st.title("Add Beneficiary")
-
+    from utils import add_header_logo
+    add_header_logo()
     # Input fields
     name = st.text_input("Beneficiary Name *")
     iban = st.text_input("IBAN Number *")
