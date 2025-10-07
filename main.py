@@ -23,8 +23,8 @@ def show_sidebar():
     with st.sidebar:
         app = option_menu(
             menu_title="ABC BANK",
-            options=["Home", "Add Beneficiary", "Account Balance", "Report Fraud" ,"Sign Out"],
-            icons=["house-fill", "person-fill","cash-coin", "incognito", "box-arrow-right",],
+            options=["Home", "Add Beneficiary","Send Amount", "Account Balance", "Report Fraud" ,"Sign Out"],
+            icons=["house-fill", "person-fill","send-fill","cash-coin", "incognito", "box-arrow-right",],
             menu_icon="chat-text-fill",
             default_index=0,
             styles={
