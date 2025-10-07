@@ -28,10 +28,10 @@ def show_sidebar():
             menu_icon="chat-text-fill",
             default_index=0,
             styles={
-                "container": {"padding": "5!important", "background-color": "#2c4068"},
+                "container": {"padding": "5!important", "background-color": "#000000"},
                 "icon": {"color": "white", "font-size": "22px"},
                 "nav-link": {"color": "white", "font-size": "18px", "text-align": "left", "margin": "2px"},
-                "nav-link-selected": {"background-color": "#02ab21"},
+                "nav-link-selected": {"background-color": "#ca4d0ee8"},
             },   
         )
         # Add footer at the bottom of sidebar
@@ -61,4 +61,4 @@ else:
         st.session_state.authenticated = False
         st.session_state.username = None
         st.success("✅ You have been logged out.")
-        st.rerun()
+        st.rerun(

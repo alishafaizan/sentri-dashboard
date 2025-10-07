@@ -1,10 +1,17 @@
 import streamlit as st
 from firebase_config import auth_client  # Use auth from firebase_config
 
+from firebase_config import db
+
+import random
+
+def generate_iban():
+    """Generate random IBAN starting with AE followed by 8 digits"""
+    random_digits = ''.join([str(random.randint(0, 9)) for _ in range(8)])
+    return f"AE{random_digits}"
+
 def app():
-    from utils import add_header_logo
-    add_header_logo()
-    st.title("🔑 Account Login / Sign Up")
+    st.title("🔐 Account Login / Sign Up")
 
     choice = st.selectbox("Choose Action", ["Login", "Sign Up"])
 
@@ -28,7 +35,4 @@ def app():
         username = st.text_input('Enter your unique username')
         if st.button("Sign Up"):
             try:
-                user = auth_client.create_user(email=email, password=password, uid=username)
-                st.success("✅ Account created! Please log in.")
-            except Exception as e:
-                st.error(f"Signup failed: {e}")
+                user = auth_client.create_user(email=emai
