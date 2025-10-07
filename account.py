@@ -1,8 +1,6 @@
 import streamlit as st
 from firebase_config import auth_client  # Use auth from firebase_config
-
 from firebase_config import db
-
 import random
 
 def generate_iban():
@@ -35,4 +33,27 @@ def app():
         username = st.text_input('Enter your unique username')
         if st.button("Sign Up"):
             try:
-                user = auth_client.create_user(email=emai
+                user = auth_client.create_user(email=email, password=password, uid=username)
+                
+                # Generate IBAN for the user
+                user_iban = generate_iban()
+                
+                # Initialize account with starting balance and IBAN
+                db.collection("users").document(username).collection("account").document("balance").set({
+                    "checking": 5000.00,
+                    "savings": 12430.75,
+                    "credit_card": 1230.00,
+                    "iban": user_iban
+                })
+                
+                # Also store IBAN at user level for easy lookup
+                db.collection("users").document(username).set({
+                    "username": username,
+                    "email": email,
+                    "iban": user_iban
+                })
+                
+                st.success(f"✅ Account created! Your IBAN: {user_iban}")
+                st.info("Please log in.")
+            except Exception as e:
+                st.error(f"Signup failed: {e}")
