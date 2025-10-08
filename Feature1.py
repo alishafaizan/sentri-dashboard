@@ -11,7 +11,7 @@ def analyze_beneficiary(username, beneficiary_name, iban):
     """
     # Placeholder logic - replace with your actual model
     rating = random.randint(1, 5)
-    explanation = "model output"
+    explanation = "Model Output"
     
     return rating, explanation
 
