@@ -28,6 +28,8 @@ def app():
         st.session_state.show_confirmation = False
     if 'current_rating' not in st.session_state:
         st.session_state.current_rating = None
+    if 'current_explanation' not in st.session_state:
+        st.session_state.current_explanation = None
     if 'current_name' not in st.session_state:
         st.session_state.current_name = None
     if 'current_iban' not in st.session_state:
@@ -36,6 +38,7 @@ def app():
     # If showing confirmation screen
     if st.session_state.show_confirmation:
         rating = st.session_state.current_rating
+        explanation = st.session_state.current_explanation
         stars = "⭐" * rating
         
         if rating >= 4:
@@ -45,6 +48,8 @@ def app():
         else:
             st.error(f"### Trust Score: {stars} ({rating}/5)")
         
+        st.info(explanation)
+
         st.warning("⚠️ Are you sure you want to add this beneficiary?")
             
         col1, col2 = st.columns(2)
@@ -57,8 +62,7 @@ def app():
                     # Store beneficiary using NAME as the document ID
                     db.collection("users").document(user_id).collection("beneficiaries").document(st.session_state.current_name).set({
                         "name": st.session_state.current_name,
-                        "iban": st.session_state.current_iban,
-                        "trust_score": rating
+                        "iban": st.session_state.current_iban
                     })
                     
                     st.success(f"✅ Beneficiary '{st.session_state.current_name}' added successfully!")
@@ -66,6 +70,7 @@ def app():
                     # Reset state
                     st.session_state.show_confirmation = False
                     st.session_state.current_rating = None
+                    st.session_state.current_explanation = None
                     st.session_state.current_name = None
                     st.session_state.current_iban = None
                     time.sleep(1)
@@ -79,6 +84,7 @@ def app():
                 # Reset state and go back
                 st.session_state.show_confirmation = False
                 st.session_state.current_rating = None
+                st.session_state.current_explanation = None
                 st.session_state.current_name = None
                 st.session_state.current_iban = None
                 st.rerun()
