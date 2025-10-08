@@ -109,3 +109,11 @@ def app():
                 st.session_state.current_explanation = explanation
                 st.session_state.current_name = name
                 st.session_state.current_iban = iban
+                
+                
+                # Set flag to show confirmation screen
+                st.session_state.show_confirmation = True
+                st.rerun()
+                
+            else:
+                st.warning("Please enter both name and IBAN.")
