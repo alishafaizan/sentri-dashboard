@@ -128,7 +128,8 @@ def app():
                 #rating, explanation = analyze_beneficiary(user_id, name, iban)
                 card, merchant, mcc = get_m()
                 hour = get_current_hour()
-                rating, explanation = score_transaction(card,merchant,75,mcc,hour)
+                amount = random.randint(1, 1000)
+                rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
                 #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
 
                 #rating = random.randint(1, 5)
