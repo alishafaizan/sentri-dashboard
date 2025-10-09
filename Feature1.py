@@ -115,4 +115,8 @@ def app():
                 
                 
                 # Set flag to show confirmation screen
-                st.session_state.show_confi
+                st.session_state.show_confirmation = True
+                st.rerun()
+                
+            else:
+                st.warning("Please enter both name and IBAN.")
