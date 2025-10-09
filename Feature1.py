@@ -127,3 +127,22 @@ def app():
                 user_id = st.session_state.username
                 #rating, explanation = analyze_beneficiary(user_id, name, iban)
                 card, merchant, mcc = get_m()
+                hour = get_current_hour()
+                rating, explanation = score_transaction(card,merchant,75,mcc,hour)
+                #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
+
+                #rating = random.randint(1, 5)
+                
+                # Store in session state
+                st.session_state.current_rating = rating
+                st.session_state.current_explanation = explanation
+                st.session_state.current_name = name
+                st.session_state.current_iban = iban
+                
+                
+                # Set flag to show confirmation screen
+                st.session_state.show_confirmation = True
+                st.rerun()
+                
+            else:
+                st.warning("Please enter both name and IBAN.")
