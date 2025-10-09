@@ -2,6 +2,7 @@ import streamlit as st
 from firebase_config import db  # import Firestore connection
 import random
 import time
+from scoring_script01 import score_transaction
 
 # Add your function here at the top
 def analyze_beneficiary(username, beneficiary_name, iban):
@@ -101,7 +102,9 @@ def app():
 
                 # Generate random rating from 1 to 5
                 user_id = st.session_state.username
-                rating, explanation = analyze_beneficiary(user_id, name, iban)
+                #rating, explanation = analyze_beneficiary(user_id, name, iban)
+                rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
+
                 #rating = random.randint(1, 5)
                 
                 # Store in session state
@@ -112,8 +115,4 @@ def app():
                 
                 
                 # Set flag to show confirmation screen
-                st.session_state.show_confirmation = True
-                st.rerun()
-                
-            else:
-                st.warning("Please enter both name and IBAN.")
+                st.session_state.show_confi
