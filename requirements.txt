@@ -4,3 +4,7 @@ streamlit-option-menu
 pillow
 pandas
 numpy
+xgboost==1.7.6
+scikit-learn
+openpyxl
+joblib
