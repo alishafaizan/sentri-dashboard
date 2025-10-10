@@ -3,6 +3,29 @@ from firebase_config import db  # import Firestore connection
 import random
 import time
 from scoring_script01 import score_transaction
+import pandas as pd
+import random
+from datetime import datetime
+
+#Add function to get card, merchant, mcc
+def get_m():
+    df = pd.read_excel("SampleDataset02.xlsx")  # replace with your actual CSV file name
+
+    # Pick a random row
+    random_row = df.sample(n=1).iloc[0]
+
+    # Extract Card, Merchant Name and MCC
+    random_card = random_row['Card']
+    random_merchant = random_row['Merchant ID']
+    random_mcc = random_row['MCC']
+
+    return random_card, random_merchant, random_mcc
+
+#Get current hour
+def get_current_hour():
+    """Returns the current hour of the day (0–23)."""
+    current_time = datetime.now()
+    return current_time.hour
 
 # Add your function here at the top
 def analyze_beneficiary(username, beneficiary_name, iban):
@@ -103,7 +126,11 @@ def app():
                 # Generate random rating from 1 to 5
                 user_id = st.session_state.username
                 #rating, explanation = analyze_beneficiary(user_id, name, iban)
-                rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
+                card, merchant, mcc = get_m()
+                hour = get_current_hour()
+                amount = random.randint(1, 1000)
+                rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
+                #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
 
                 #rating = random.randint(1, 5)
                 
