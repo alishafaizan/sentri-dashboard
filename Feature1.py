@@ -143,4 +143,24 @@ def app():
 
                 # Generate random rating from 1 to 5
                 user_id = st.session_state.username
-                #rating, explanation = analyze_beneficiary(user_id, na
+                #rating, explanation = analyze_beneficiary(user_id, name, iban)
+                card, merchant, mcc = get_m()
+                hour = get_current_hour()
+                amount = random.randint(1, 1000)
+                rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
+                #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
+
+                
+                # Store in session state
+                st.session_state.current_rating = rating
+                st.session_state.current_explanation = explanation
+                st.session_state.current_name = name
+                st.session_state.current_iban = iban
+                
+                
+                # Set flag to show confirmation screen
+                st.session_state.show_confirmation = True
+                st.rerun()
+                
+            else:
+                st.warning("Please enter both name and IBAN.")
