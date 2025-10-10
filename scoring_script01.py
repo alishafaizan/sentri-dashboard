@@ -28,7 +28,7 @@ def get_merch_cpp_score(merchant):
 def score_transaction(card, merchant, amount, mcc, hour_of_day):
     star_score = 1
     explanation_string = ""
-    print('will start scoring now')
+    print('Will start scoring now')
     risk_score1, risk_score2, risk_score3, risk_score4, risk_score5 = get_vulnerability_score(card)
     if max(risk_score1, risk_score2, risk_score3, risk_score4, risk_score5) >= 0.9:
         return 1, "Suspicious Call/Message Activity"
@@ -78,18 +78,4 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
         star_score = 5
         
     cb_file = pd.read_xml("chargeback_file.xml")
-    fraud_file = pd.read_xml("fraud_file.xml")
-    
-    cb_score = cb_file[cb_file["card"] == card].reset_index(drop=True)["cb_score"][0]
-    fraud_score = fraud_file[fraud_file["card"] == card].reset_index(drop=True)["fraud_score"][0]
-    
-    if cb_score > 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, Low Chargeback"
-    elif cb_score > 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, Low Chargeback"
-    
-    return star_score, explanation_string
+    fraud_file = pd.rea

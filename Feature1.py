@@ -10,7 +10,7 @@ from datetime import datetime
 #Add function to get card, merchant, mcc
 def get_m():
     df = pd.read_xml("SampleDataset02.xml")
-    print('pulling data for model') 
+    print('Pulling data for model') 
     # Pick a random row
     random_row = df.sample(n=1).iloc[0]
 
