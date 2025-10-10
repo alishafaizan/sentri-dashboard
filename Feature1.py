@@ -16,7 +16,7 @@ def get_m():
 
     # Extract Card, Merchant Name and MCC
     random_amount = random_row['Amount']
-    random_card = random_row['User']
+    random_card = random_row['Card']
     random_merchant = random_row['Merchant_ID']
     random_mcc = random_row['MCC']
 
