@@ -1,0 +1,2793 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2002</Year>
+    <Month>9</Month>
+    <Day>9</Day>
+    <Time>01/01/1900 9:40</Time>
+    <Amount>65.5</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-3.34594e+18</Merchant_ID>
+    <Merchant_Name>La Verne Auto Service 6459</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>7538</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>09/09/2002 9:40</Datetime>
+    <HourOfDay>9</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>580</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>9</Hour>
+    <DayOfMonth>9</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2002</Year>
+    <Month>9</Month>
+    <Day>12</Day>
+    <Time>01/01/1900 6:21</Time>
+    <Amount>122.1</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.06065e+18</Merchant_ID>
+    <Merchant_Name>La Verne Supermarket 4559</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>12/09/2002 6:21</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>381</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>12</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2002</Year>
+    <Month>9</Month>
+    <Day>17</Day>
+    <Time>01/01/1900 6:09</Time>
+    <Amount>120.19</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-3.45515e+16</Merchant_ID>
+    <Merchant_Name>La Verne Pharmacy 8520</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>17/09/2002 6:09</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>369</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>17</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2002</Year>
+    <Month>9</Month>
+    <Day>20</Day>
+    <Time>01/01/1900 6:01</Time>
+    <Amount>104.77</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-2.45178e+17</Merchant_ID>
+    <Merchant_Name>La Verne Department Store 7046</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5311</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>20/09/2002 6:01</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>361</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>20</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2002</Year>
+    <Month>9</Month>
+    <Day>29</Day>
+    <Time>01/01/1900 6:06</Time>
+    <Amount>119.61</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>5.81722e+18</Merchant_ID>
+    <Merchant_Name>La Verne Pharmacy 6267</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>29/09/2002 6:06</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>366</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>29</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2002</Year>
+    <Month>9</Month>
+    <Day>29</Day>
+    <Time>01/01/1900 6:22</Time>
+    <Amount>120.25</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>5.81722e+18</Merchant_ID>
+    <Merchant_Name>La Verne Pharmacy 6267</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>29/09/2002 6:22</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>382</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>29</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2003</Year>
+    <Month>1</Month>
+    <Day>30</Day>
+    <Time>01/01/1900 21:30</Time>
+    <Amount>29.35</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.73317e+18</Merchant_ID>
+    <Merchant_Name>Mira Loma Merchant 5480</Merchant_Name>
+    <Merchant_City>Mira Loma</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91752</Zip>
+    <MCC>7832</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>30/01/2003 21:30</Datetime>
+    <HourOfDay>21</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1290</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>21</Hour>
+    <DayOfMonth>30</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2003</Year>
+    <Month>3</Month>
+    <Day>2</Day>
+    <Time>01/01/1900 6:39</Time>
+    <Amount>121.73</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.06065e+18</Merchant_ID>
+    <Merchant_Name>La Verne Supermarket 4559</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>02/03/2003 6:39</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>399</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>2</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2003</Year>
+    <Month>3</Month>
+    <Day>31</Day>
+    <Time>01/01/1900 9:30</Time>
+    <Amount>40.15</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>3.95215e+18</Merchant_ID>
+    <Merchant_Name>La Verne Auto Service 4256</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>7538</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>31/03/2003 9:30</Datetime>
+    <HourOfDay>9</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>570</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>9</Hour>
+    <DayOfMonth>31</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>0</Card>
+    <Year>2003</Year>
+    <Month>4</Month>
+    <Day>10</Day>
+    <Time>01/01/1900 9:56</Time>
+    <Amount>53.48</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-3.34594e+18</Merchant_ID>
+    <Merchant_Name>La Verne Auto Service 6459</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>7538</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>10/04/2003 9:56</Datetime>
+    <HourOfDay>9</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>596</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>9</Hour>
+    <DayOfMonth>10</DayOfMonth>
+    <TotalAmountPerCard>7283863.54</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2014</Year>
+    <Month>10</Month>
+    <Day>5</Day>
+    <Time>01/01/1900 6:20</Time>
+    <Amount>121.83</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>Mira Loma Merchant 2703</Merchant_Name>
+    <Merchant_City>Mira Loma</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91752</Zip>
+    <MCC>5541</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>05/10/2014 6:20</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>380</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>5</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2014</Year>
+    <Month>11</Month>
+    <Day>1</Day>
+    <Time>01/01/1900 20:49</Time>
+    <Amount>87.28</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-5.0235e+18</Merchant_ID>
+    <Merchant_Name>Mira Loma Restaurant 2366</Merchant_Name>
+    <Merchant_City>Mira Loma</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91752</Zip>
+    <MCC>5812</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>01/11/2014 20:49</Datetime>
+    <HourOfDay>20</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1249</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>20</Hour>
+    <DayOfMonth>1</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2014</Year>
+    <Month>11</Month>
+    <Day>15</Day>
+    <Time>01/01/1900 13:16</Time>
+    <Amount>81.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-1.28808e+18</Merchant_ID>
+    <Merchant_Name>La Verne Merchant 2052</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5499</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>15/11/2014 13:16</Datetime>
+    <HourOfDay>13</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>796</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>13</Hour>
+    <DayOfMonth>15</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2014</Year>
+    <Month>12</Month>
+    <Day>29</Day>
+    <Time>01/01/1900 16:45</Time>
+    <Amount>107.23</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-5.90412e+18</Merchant_ID>
+    <Merchant_Name>Diamond Bar Merchant 6298</Merchant_Name>
+    <Merchant_City>Diamond Bar</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91765</Zip>
+    <MCC>5719</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>29/12/2014 16:45</Datetime>
+    <HourOfDay>16</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1005</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>16</Hour>
+    <DayOfMonth>29</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2015</Year>
+    <Month>3</Month>
+    <Day>24</Day>
+    <Time>01/01/1900 6:05</Time>
+    <Amount>114.42</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>Mira Loma Merchant 2703</Merchant_Name>
+    <Merchant_City>Mira Loma</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91752</Zip>
+    <MCC>5541</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>24/03/2015 6:05</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>365</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>24</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2015</Year>
+    <Month>4</Month>
+    <Day>4</Day>
+    <Time>01/01/1900 6:21</Time>
+    <Amount>122.11</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>-2.45178e+17</Merchant_ID>
+    <Merchant_Name>La Verne Department Store 7046</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5311</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>04/04/2015 6:21</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>381</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>4</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2015</Year>
+    <Month>4</Month>
+    <Day>13</Day>
+    <Time>01/01/1900 6:05</Time>
+    <Amount>122.18</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>Mira Loma Merchant 2703</Merchant_Name>
+    <Merchant_City>Mira Loma</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91752</Zip>
+    <MCC>5541</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>13/04/2015 6:05</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>365</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>13</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2015</Year>
+    <Month>5</Month>
+    <Day>23</Day>
+    <Time>01/01/1900 5:00</Time>
+    <Amount>120.48</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>-3.45515e+16</Merchant_ID>
+    <Merchant_Name>La Verne Pharmacy 8520</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>23/05/2015 5:00</Datetime>
+    <HourOfDay>5</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>300</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>5</Hour>
+    <DayOfMonth>23</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2015</Year>
+    <Month>7</Month>
+    <Day>11</Day>
+    <Time>01/01/1900 13:47</Time>
+    <Amount>64.12</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>5.81722e+18</Merchant_ID>
+    <Merchant_Name>La Verne Pharmacy 6267</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>11/07/2015 13:47</Datetime>
+    <HourOfDay>13</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>827</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>13</Hour>
+    <DayOfMonth>11</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>1</Card>
+    <Year>2015</Year>
+    <Month>8</Month>
+    <Day>8</Day>
+    <Time>01/01/1900 13:26</Time>
+    <Amount>52.0</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>Marlton Merchant 2703</Merchant_Name>
+    <Merchant_City>Marlton</Merchant_City>
+    <Merchant_State>NJ</Merchant_State>
+    <Zip>8053</Zip>
+    <MCC>5541</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>08/08/2015 13:26</Datetime>
+    <HourOfDay>13</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>806</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>13</Hour>
+    <DayOfMonth>8</DayOfMonth>
+    <TotalAmountPerCard>5184535.82</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>1</Month>
+    <Day>7</Day>
+    <Time>01/01/1900 6:25</Time>
+    <Amount>120.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-4.28247e+18</Merchant_ID>
+    <Merchant_Name>Mira Loma Merchant 4331</Merchant_Name>
+    <Merchant_City>Mira Loma</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91752</Zip>
+    <MCC>4829</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>07/01/2004 6:25</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>385</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>7</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>3</Month>
+    <Day>13</Day>
+    <Time>01/01/1900 19:29</Time>
+    <Amount>8.29</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>3.52721e+18</Merchant_ID>
+    <Merchant_Name>La Verne Merchant 6953</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5300</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>13/03/2004 19:29</Datetime>
+    <HourOfDay>19</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1169</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>19</Hour>
+    <DayOfMonth>13</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>4</Month>
+    <Day>15</Day>
+    <Time>01/01/1900 6:22</Time>
+    <Amount>121.27</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-7.27612e+17</Merchant_ID>
+    <Merchant_Name>Monterey Park Supermarket 6043</Merchant_Name>
+    <Merchant_City>Monterey Park</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91754</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>15/04/2004 6:22</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>382</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>15</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>8</Month>
+    <Day>6</Day>
+    <Time>01/01/1900 20:08</Time>
+    <Amount>73.04</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-1.60579e+18</Merchant_ID>
+    <Merchant_Name>La Verne Restaurant 9456</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5812</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>06/08/2004 20:08</Datetime>
+    <HourOfDay>20</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1208</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>20</Hour>
+    <DayOfMonth>6</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>9</Month>
+    <Day>27</Day>
+    <Time>01/01/1900 9:02</Time>
+    <Amount>68.56</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.05526e+18</Merchant_ID>
+    <Merchant_Name>La Verne Auto Service 8705</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>7538</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>27/09/2004 9:02</Datetime>
+    <HourOfDay>9</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>542</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>9</Hour>
+    <DayOfMonth>27</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>10</Month>
+    <Day>18</Day>
+    <Time>01/01/1900 5:42</Time>
+    <Amount>120.61</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-2.45178e+17</Merchant_ID>
+    <Merchant_Name>La Verne Department Store 7046</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5311</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>18/10/2004 5:42</Datetime>
+    <HourOfDay>5</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>342</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>5</Hour>
+    <DayOfMonth>18</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>11</Month>
+    <Day>25</Day>
+    <Time>01/01/1900 6:51</Time>
+    <Amount>112.26</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.06065e+18</Merchant_ID>
+    <Merchant_Name>La Verne Supermarket 4559</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>25/11/2004 6:51</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>411</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>25</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2004</Year>
+    <Month>12</Month>
+    <Day>30</Day>
+    <Time>01/01/1900 6:27</Time>
+    <Amount>121.6</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.06065e+18</Merchant_ID>
+    <Merchant_Name>La Verne Supermarket 4559</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>30/12/2004 6:27</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>387</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>30</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2005</Year>
+    <Month>2</Month>
+    <Day>24</Day>
+    <Time>01/01/1900 6:00</Time>
+    <Amount>121.67</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>5.81722e+18</Merchant_ID>
+    <Merchant_Name>La Verne Pharmacy 6267</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>24/02/2005 6:00</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>360</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>24</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>2</Card>
+    <Year>2005</Year>
+    <Month>3</Month>
+    <Day>27</Day>
+    <Time>01/01/1900 12:44</Time>
+    <Amount>-61.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-1.28808e+18</Merchant_ID>
+    <Merchant_Name>Austin Merchant 2052</Merchant_Name>
+    <Merchant_City>Austin</Merchant_City>
+    <Merchant_State>TX</Merchant_State>
+    <Zip>78753</Zip>
+    <MCC>5499</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>27/03/2005 12:44</Datetime>
+    <HourOfDay>12</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>764</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>12</Hour>
+    <DayOfMonth>27</DayOfMonth>
+    <TotalAmountPerCard>3238915.36</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>1</Month>
+    <Day>9</Day>
+    <Time>01/01/1900 6:16</Time>
+    <Amount>121.53</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>Mira Loma Merchant 2703</Merchant_Name>
+    <Merchant_City>Mira Loma</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91752</Zip>
+    <MCC>5541</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>09/01/2003 6:16</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>376</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>9</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>3</Month>
+    <Day>5</Day>
+    <Time>01/01/1900 5:42</Time>
+    <Amount>121.52</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-2.45178e+17</Merchant_ID>
+    <Merchant_Name>La Verne Department Store 7046</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5311</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>05/03/2003 5:42</Datetime>
+    <HourOfDay>5</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>342</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>5</Hour>
+    <DayOfMonth>5</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>3</Month>
+    <Day>12</Day>
+    <Time>01/01/1900 6:51</Time>
+    <Amount>37.39</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>5.81722e+18</Merchant_ID>
+    <Merchant_Name>Onawa Pharmacy 6267</Merchant_Name>
+    <Merchant_City>Onawa</Merchant_City>
+    <Merchant_State>IA</Merchant_State>
+    <Zip>51040</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>12/03/2003 6:51</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>411</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>12</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>3</Month>
+    <Day>21</Day>
+    <Time>01/01/1900 6:27</Time>
+    <Amount>120.98</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>3.52721e+18</Merchant_ID>
+    <Merchant_Name>La Verne Merchant 6953</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5300</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>21/03/2003 6:27</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>387</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>21</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>6</Month>
+    <Day>6</Day>
+    <Time>01/01/1900 9:46</Time>
+    <Amount>121.69</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>7.94533e+18</Merchant_ID>
+    <Merchant_Name>La Verne Utility 0558</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>4900</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>06/06/2003 9:46</Datetime>
+    <HourOfDay>9</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>586</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>9</Hour>
+    <DayOfMonth>6</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>6</Month>
+    <Day>7</Day>
+    <Time>01/01/1900 6:57</Time>
+    <Amount>33.42</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-7.27612e+17</Merchant_ID>
+    <Merchant_Name>Monterey Park Supermarket 6043</Merchant_Name>
+    <Merchant_City>Monterey Park</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91754</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>07/06/2003 6:57</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>417</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>7</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>6</Month>
+    <Day>17</Day>
+    <Time>01/01/1900 6:14</Time>
+    <Amount>120.06</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.91348e+18</Merchant_ID>
+    <Merchant_Name>La Verne Merchant 5860</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5300</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>17/06/2003 6:14</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>374</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>17</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>7</Month>
+    <Day>8</Day>
+    <Time>01/01/1900 6:03</Time>
+    <Amount>120.63</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-7.27612e+17</Merchant_ID>
+    <Merchant_Name>Monterey Park Supermarket 6043</Merchant_Name>
+    <Merchant_City>Monterey Park</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91754</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>08/07/2003 6:03</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>363</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>8</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>7</Month>
+    <Day>13</Day>
+    <Time>01/01/1900 6:05</Time>
+    <Amount>122.25</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.06065e+18</Merchant_ID>
+    <Merchant_Name>La Verne Supermarket 4559</Merchant_Name>
+    <Merchant_City>La Verne</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91750</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>13/07/2003 6:05</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>365</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>13</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>0</User>
+    <Card>3</Card>
+    <Year>2003</Year>
+    <Month>11</Month>
+    <Day>9</Day>
+    <Time>01/01/1900 6:05</Time>
+    <Amount>116.89</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-7.27612e+17</Merchant_ID>
+    <Merchant_Name>Monterey Park Supermarket 6043</Merchant_Name>
+    <Merchant_City>Monterey Park</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91754</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>09/11/2003 6:05</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>365</TotalMinutes>
+    <TransactionFrequency>525</TransactionFrequency>
+    <mean>101.8561333</mean>
+    <median>119.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>53474.47</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>9</DayOfMonth>
+    <TotalAmountPerCard>2300537.1</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2010</Year>
+    <Month>1</Month>
+    <Day>16</Day>
+    <Time>01/01/1900 10:31</Time>
+    <Amount>6.52</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>West Covina Merchant 2703</Merchant_Name>
+    <Merchant_City>West Covina</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91792</Zip>
+    <MCC>5541</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>16/01/2010 10:31</Datetime>
+    <HourOfDay>10</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>631</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>10</Hour>
+    <DayOfMonth>16</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2010</Year>
+    <Month>2</Month>
+    <Day>1</Day>
+    <Time>01/01/1900 6:42</Time>
+    <Amount>13.93</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-4.89106e+18</Merchant_ID>
+    <Merchant_Name>West Covina Supermarket 0993</Merchant_Name>
+    <Merchant_City>West Covina</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91792</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>01/02/2010 6:42</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>402</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>1</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2010</Year>
+    <Month>4</Month>
+    <Day>13</Day>
+    <Time>01/01/1900 11:27</Time>
+    <Amount>52.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>West Covina Merchant 2703</Merchant_Name>
+    <Merchant_City>West Covina</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91792</Zip>
+    <MCC>5541</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>13/04/2010 11:27</Datetime>
+    <HourOfDay>11</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>687</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>11</Hour>
+    <DayOfMonth>13</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2010</Year>
+    <Month>4</Month>
+    <Day>16</Day>
+    <Time>01/01/1900 7:42</Time>
+    <Amount>7.85</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.03533e+18</Merchant_ID>
+    <Merchant_Name>Alhambra Restaurant 9059</Merchant_Name>
+    <Merchant_City>Alhambra</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91801</Zip>
+    <MCC>5812</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>16/04/2010 7:42</Datetime>
+    <HourOfDay>7</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>462</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>7</Hour>
+    <DayOfMonth>16</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2010</Year>
+    <Month>9</Month>
+    <Day>12</Day>
+    <Time>01/01/1900 4:00</Time>
+    <Amount>22.63</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-1.64421e+18</Merchant_ID>
+    <Merchant_Name>West Covina Merchant 4132</Merchant_Name>
+    <Merchant_City>West Covina</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91792</Zip>
+    <MCC>5813</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>12/09/2010 4:00</Datetime>
+    <HourOfDay>4</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>240</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>4</Hour>
+    <DayOfMonth>12</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2010</Year>
+    <Month>10</Month>
+    <Day>7</Day>
+    <Time>01/01/1900 16:51</Time>
+    <Amount>12.16</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.79919e+18</Merchant_ID>
+    <Merchant_Name>Alhambra Merchant 5940</Merchant_Name>
+    <Merchant_City>Alhambra</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91801</Zip>
+    <MCC>5499</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>07/10/2010 16:51</Datetime>
+    <HourOfDay>16</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1011</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>16</Hour>
+    <DayOfMonth>7</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2011</Year>
+    <Month>9</Month>
+    <Day>1</Day>
+    <Time>01/01/1900 6:42</Time>
+    <Amount>43.12</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-5.86136e+18</Merchant_ID>
+    <Merchant_Name>West Covina Pharmacy 9488</Merchant_Name>
+    <Merchant_City>West Covina</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91792</Zip>
+    <MCC>5912</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>01/09/2011 6:42</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>402</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>1</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2011</Year>
+    <Month>9</Month>
+    <Day>10</Day>
+    <Time>01/01/1900 7:57</Time>
+    <Amount>8.77</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-7.80474e+18</Merchant_ID>
+    <Merchant_Name>West Covina Restaurant 7486</Merchant_Name>
+    <Merchant_City>West Covina</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91792</Zip>
+    <MCC>5812</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>10/09/2011 7:57</Datetime>
+    <HourOfDay>7</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>477</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>7</Hour>
+    <DayOfMonth>10</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2011</Year>
+    <Month>10</Month>
+    <Day>28</Day>
+    <Time>01/01/1900 6:48</Time>
+    <Amount>10.11</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>6.04253e+18</Merchant_ID>
+    <Merchant_Name>West Covina Pharmacy 1250</Merchant_Name>
+    <Merchant_City>West Covina</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91792</Zip>
+    <MCC>5912</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>28/10/2011 6:48</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>408</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>28</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>2</User>
+    <Card>4</Card>
+    <Year>2011</Year>
+    <Month>11</Month>
+    <Day>3</Day>
+    <Time>01/01/1900 15:34</Time>
+    <Amount>40.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-4.28247e+18</Merchant_ID>
+    <Merchant_Name>Chula Vista Merchant 4331</Merchant_Name>
+    <Merchant_City>Chula Vista</Merchant_City>
+    <Merchant_State>CA</Merchant_State>
+    <Zip>91910</Zip>
+    <MCC>4829</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>03/11/2011 15:34</Datetime>
+    <HourOfDay>15</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>934</TotalMinutes>
+    <TransactionFrequency>279</TransactionFrequency>
+    <mean>41.21387097</mean>
+    <median>23.76</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11498.67</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>15</Hour>
+    <DayOfMonth>3</DayOfMonth>
+    <TotalAmountPerCard>968348.89</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>3</Month>
+    <Day>29</Day>
+    <Time>01/01/1900 19:48</Time>
+    <Amount>52.37</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>3.39745e+18</Merchant_ID>
+    <Merchant_Name>Bartlesville Merchant 9772</Merchant_Name>
+    <Merchant_City>Bartlesville</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>74006</Zip>
+    <MCC>5541</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>29/03/2002 19:48</Datetime>
+    <HourOfDay>19</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1188</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>19</Hour>
+    <DayOfMonth>29</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>5</Month>
+    <Day>18</Day>
+    <Time>01/01/1900 19:51</Time>
+    <Amount>51.41</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.92531e+18</Merchant_ID>
+    <Merchant_Name>Boise City Merchant 6291</Merchant_Name>
+    <Merchant_City>Boise City</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73933</Zip>
+    <MCC>5300</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>18/05/2002 19:51</Datetime>
+    <HourOfDay>19</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1191</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>19</Hour>
+    <DayOfMonth>18</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>5</Month>
+    <Day>29</Day>
+    <Time>01/01/1900 19:04</Time>
+    <Amount>52.75</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-5.46792e+18</Merchant_ID>
+    <Merchant_Name>Guymon Pharmacy 5955</Merchant_Name>
+    <Merchant_City>Guymon</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73942</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>29/05/2002 19:04</Datetime>
+    <HourOfDay>19</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1144</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>19</Hour>
+    <DayOfMonth>29</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>6</Month>
+    <Day>1</Day>
+    <Time>01/01/1900 9:21</Time>
+    <Amount>6.43</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.76982e+18</Merchant_ID>
+    <Merchant_Name>Boise City Supermarket 7543</Merchant_Name>
+    <Merchant_City>Boise City</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73933</Zip>
+    <MCC>5411</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>01/06/2002 9:21</Datetime>
+    <HourOfDay>9</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>561</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>9</Hour>
+    <DayOfMonth>1</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>6</Month>
+    <Day>29</Day>
+    <Time>01/01/1900 19:47</Time>
+    <Amount>76.55</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.91348e+18</Merchant_ID>
+    <Merchant_Name>Hooker Merchant 5860</Merchant_Name>
+    <Merchant_City>Hooker</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73945</Zip>
+    <MCC>5300</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>29/06/2002 19:47</Datetime>
+    <HourOfDay>19</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1187</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>19</Hour>
+    <DayOfMonth>29</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>7</Month>
+    <Day>15</Day>
+    <Time>01/01/1900 11:06</Time>
+    <Amount>-95.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-1.28808e+18</Merchant_ID>
+    <Merchant_Name>Guymon Merchant 2052</Merchant_Name>
+    <Merchant_City>Guymon</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73942</Zip>
+    <MCC>5499</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>15/07/2002 11:06</Datetime>
+    <HourOfDay>11</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>666</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>11</Hour>
+    <DayOfMonth>15</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>8</Month>
+    <Day>8</Day>
+    <Time>01/01/1900 19:39</Time>
+    <Amount>54.28</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.92531e+18</Merchant_ID>
+    <Merchant_Name>Boise City Merchant 6291</Merchant_Name>
+    <Merchant_City>Boise City</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73933</Zip>
+    <MCC>5300</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>08/08/2002 19:39</Datetime>
+    <HourOfDay>19</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1179</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>19</Hour>
+    <DayOfMonth>8</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>9</Month>
+    <Day>24</Day>
+    <Time>01/01/1900 13:54</Time>
+    <Amount>10.29</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.72291e+18</Merchant_ID>
+    <Merchant_Name>Las Vegas Supermarket 4812</Merchant_Name>
+    <Merchant_City>Las Vegas</Merchant_City>
+    <Merchant_State>NV</Merchant_State>
+    <Zip>89183</Zip>
+    <MCC>5411</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>24/09/2002 13:54</Datetime>
+    <HourOfDay>13</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>834</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>13</Hour>
+    <DayOfMonth>24</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>12</Month>
+    <Day>1</Day>
+    <Time>01/01/1900 18:46</Time>
+    <Amount>49.91</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-5.46792e+18</Merchant_ID>
+    <Merchant_Name>Guymon Pharmacy 5955</Merchant_Name>
+    <Merchant_City>Guymon</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73942</Zip>
+    <MCC>5912</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>01/12/2002 18:46</Datetime>
+    <HourOfDay>18</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1126</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>18</Hour>
+    <DayOfMonth>1</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>15</User>
+    <Card>5</Card>
+    <Year>2002</Year>
+    <Month>12</Month>
+    <Day>16</Day>
+    <Time>01/01/1900 14:05</Time>
+    <Amount>13.25</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.76982e+18</Merchant_ID>
+    <Merchant_Name>Boise City Supermarket 7543</Merchant_Name>
+    <Merchant_City>Boise City</Merchant_City>
+    <Merchant_State>OK</Merchant_State>
+    <Zip>73933</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>16/12/2002 14:05</Datetime>
+    <HourOfDay>14</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>845</TotalMinutes>
+    <TransactionFrequency>160</TransactionFrequency>
+    <mean>25.6474375</mean>
+    <median>27.3</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>4103.59</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>14</Hour>
+    <DayOfMonth>16</DayOfMonth>
+    <TotalAmountPerCard>436412.5</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2013</Year>
+    <Month>3</Month>
+    <Day>5</Day>
+    <Time>01/01/1900 0:09</Time>
+    <Amount>127.67</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-2.91654e+18</Merchant_ID>
+    <Merchant_Name>Bennington Merchant 5698</Merchant_Name>
+    <Merchant_City>Bennington</Merchant_City>
+    <Merchant_State>NE</Merchant_State>
+    <Zip>68007</Zip>
+    <MCC>5719</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>05/03/2013 0:09</Datetime>
+    <HourOfDay>0</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>9</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>0</Hour>
+    <DayOfMonth>5</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2013</Year>
+    <Month>7</Month>
+    <Day>6</Day>
+    <Time>01/01/1900 18:21</Time>
+    <Amount>30.6</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-3.73986e+18</Merchant_ID>
+    <Merchant_Name>Junction City Merchant 1178</Merchant_Name>
+    <Merchant_City>Junction City</Merchant_City>
+    <Merchant_State>KS</Merchant_State>
+    <Zip>66441</Zip>
+    <MCC>7832</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>06/07/2013 18:21</Datetime>
+    <HourOfDay>18</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1101</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>18</Hour>
+    <DayOfMonth>6</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2013</Year>
+    <Month>10</Month>
+    <Day>10</Day>
+    <Time>01/01/1900 12:03</Time>
+    <Amount>182.84</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-4.4927e+18</Merchant_ID>
+    <Merchant_Name>Overland Park Merchant 6127</Merchant_Name>
+    <Merchant_City>Overland Park</Merchant_City>
+    <Merchant_State>KS</Merchant_State>
+    <Zip>66221</Zip>
+    <MCC>8021</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>10/10/2013 12:03</Datetime>
+    <HourOfDay>12</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>723</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>12</Hour>
+    <DayOfMonth>10</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2014</Year>
+    <Month>1</Month>
+    <Day>29</Day>
+    <Time>01/01/1900 18:41</Time>
+    <Amount>30.98</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.19814e+18</Merchant_ID>
+    <Merchant_Name>Marion Merchant 8681</Merchant_Name>
+    <Merchant_City>Marion</Merchant_City>
+    <Merchant_State>IA</Merchant_State>
+    <Zip>52302</Zip>
+    <MCC>7832</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>29/01/2014 18:41</Datetime>
+    <HourOfDay>18</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1121</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>18</Hour>
+    <DayOfMonth>29</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2015</Year>
+    <Month>6</Month>
+    <Day>26</Day>
+    <Time>01/01/1900 18:04</Time>
+    <Amount>25.47</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>-3.73986e+18</Merchant_ID>
+    <Merchant_Name>Junction City Merchant 1178</Merchant_Name>
+    <Merchant_City>Junction City</Merchant_City>
+    <Merchant_State>KS</Merchant_State>
+    <Zip>66441</Zip>
+    <MCC>7832</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>26/06/2015 18:04</Datetime>
+    <HourOfDay>18</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1084</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>18</Hour>
+    <DayOfMonth>26</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2015</Year>
+    <Month>8</Month>
+    <Day>1</Day>
+    <Time>01/01/1900 7:33</Time>
+    <Amount>30.86</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>4.72291e+18</Merchant_ID>
+    <Merchant_Name>Centralia Supermarket 4812</Merchant_Name>
+    <Merchant_City>Centralia</Merchant_City>
+    <Merchant_State>KS</Merchant_State>
+    <Zip>66415</Zip>
+    <MCC>5411</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>01/08/2015 7:33</Datetime>
+    <HourOfDay>7</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>453</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>7</Hour>
+    <DayOfMonth>1</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2016</Year>
+    <Month>2</Month>
+    <Day>10</Day>
+    <Time>01/01/1900 17:44</Time>
+    <Amount>117.61</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>-5.0235e+18</Merchant_ID>
+    <Merchant_Name>Overland Park Restaurant 2366</Merchant_Name>
+    <Merchant_City>Overland Park</Merchant_City>
+    <Merchant_State>KS</Merchant_State>
+    <Zip>66221</Zip>
+    <MCC>5812</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>10/02/2016 17:44</Datetime>
+    <HourOfDay>17</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1064</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>17</Hour>
+    <DayOfMonth>10</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2016</Year>
+    <Month>6</Month>
+    <Day>12</Day>
+    <Time>01/01/1900 7:37</Time>
+    <Amount>35.8</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>-2.91654e+18</Merchant_ID>
+    <Merchant_Name>Bennington Merchant 5698</Merchant_Name>
+    <Merchant_City>Bennington</Merchant_City>
+    <Merchant_State>NE</Merchant_State>
+    <Zip>68007</Zip>
+    <MCC>5719</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>12/06/2016 7:37</Datetime>
+    <HourOfDay>7</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>457</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>7</Hour>
+    <DayOfMonth>12</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2016</Year>
+    <Month>12</Month>
+    <Day>5</Day>
+    <Time>01/01/1900 17:45</Time>
+    <Amount>71.56</Amount>
+    <Use_Chip>Chip Transaction</Use_Chip>
+    <Merchant_ID>-4.50054e+18</Merchant_ID>
+    <Merchant_Name>Overland Park Cafe 2428</Merchant_Name>
+    <Merchant_City>Overland Park</Merchant_City>
+    <Merchant_State>KS</Merchant_State>
+    <Zip>66223</Zip>
+    <MCC>5814</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>05/12/2016 17:45</Datetime>
+    <HourOfDay>17</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1065</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>17</Hour>
+    <DayOfMonth>5</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>40</User>
+    <Card>6</Card>
+    <Year>2016</Year>
+    <Month>12</Month>
+    <Day>16</Day>
+    <Time>01/01/1900 14:38</Time>
+    <Amount>58.51</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.91348e+18</Merchant_ID>
+    <Merchant_Name>Seneca Merchant 5860</Merchant_Name>
+    <Merchant_City>Seneca</Merchant_City>
+    <Merchant_State>KS</Merchant_State>
+    <Zip>66538</Zip>
+    <MCC>5300</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>16/12/2016 14:38</Datetime>
+    <HourOfDay>14</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>878</TotalMinutes>
+    <TransactionFrequency>244</TransactionFrequency>
+    <mean>83.9045082</mean>
+    <median>78.72</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>20472.7</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>14</Hour>
+    <DayOfMonth>16</DayOfMonth>
+    <TotalAmountPerCard>99495.9</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2003</Year>
+    <Month>11</Month>
+    <Day>22</Day>
+    <Time>01/01/1900 22:34</Time>
+    <Amount>93.01</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>9.70328e+16</Merchant_ID>
+    <Merchant_Name>Indianapolis Supermarket 1735</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46236</Zip>
+    <MCC>5411</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>22/11/2003 22:34</Datetime>
+    <HourOfDay>22</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1354</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>22</Hour>
+    <DayOfMonth>22</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2003</Year>
+    <Month>12</Month>
+    <Day>10</Day>
+    <Time>01/01/1900 15:13</Time>
+    <Amount>130.18</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-3.13746e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Merchant 3102</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46236</Zip>
+    <MCC>8011</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>10/12/2003 15:13</Datetime>
+    <HourOfDay>15</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>913</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>15</Hour>
+    <DayOfMonth>10</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2004</Year>
+    <Month>4</Month>
+    <Day>5</Day>
+    <Time>01/01/1900 11:22</Time>
+    <Amount>16.15</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>2.02755e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Merchant 2703</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46236</Zip>
+    <MCC>5541</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>05/04/2004 11:22</Datetime>
+    <HourOfDay>11</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>682</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>11</Hour>
+    <DayOfMonth>5</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2004</Year>
+    <Month>6</Month>
+    <Day>14</Day>
+    <Time>01/01/1900 13:09</Time>
+    <Amount>120.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-4.28247e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Merchant 4331</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46239</Zip>
+    <MCC>4829</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>14/06/2004 13:09</Datetime>
+    <HourOfDay>13</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>789</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>13</Hour>
+    <DayOfMonth>14</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2004</Year>
+    <Month>9</Month>
+    <Day>1</Day>
+    <Time>01/01/1900 22:43</Time>
+    <Amount>139.89</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-7.12366e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Merchant 1465</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46239</Zip>
+    <MCC>7922</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>01/09/2004 22:43</Datetime>
+    <HourOfDay>22</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1363</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>22</Hour>
+    <DayOfMonth>1</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2004</Year>
+    <Month>10</Month>
+    <Day>4</Day>
+    <Time>01/01/1900 15:48</Time>
+    <Amount>43.36</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>7.47959e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Department Store 4169</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46241</Zip>
+    <MCC>5311</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>04/10/2004 15:48</Datetime>
+    <HourOfDay>15</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>948</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>15</Hour>
+    <DayOfMonth>4</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2005</Year>
+    <Month>2</Month>
+    <Day>15</Day>
+    <Time>01/01/1900 6:20</Time>
+    <Amount>47.99</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>9.70328e+16</Merchant_ID>
+    <Merchant_Name>Indianapolis Supermarket 1735</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46236</Zip>
+    <MCC>5411</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>15/02/2005 6:20</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>380</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>15</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2005</Year>
+    <Month>3</Month>
+    <Day>8</Day>
+    <Time>01/01/1900 7:26</Time>
+    <Amount>1.62</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.57101e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Merchant 7219</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46236</Zip>
+    <MCC>5499</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>08/03/2005 7:26</Datetime>
+    <HourOfDay>7</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>446</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>7</Hour>
+    <DayOfMonth>8</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2005</Year>
+    <Month>7</Month>
+    <Day>26</Day>
+    <Time>01/01/1900 7:33</Time>
+    <Amount>131.61</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-3.69365e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Merchant 9431</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46237</Zip>
+    <MCC>4814</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>26/07/2005 7:33</Datetime>
+    <HourOfDay>7</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>453</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>7</Hour>
+    <DayOfMonth>26</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>239</User>
+    <Card>7</Card>
+    <Year>2005</Year>
+    <Month>7</Month>
+    <Day>27</Day>
+    <Time>01/01/1900 7:26</Time>
+    <Amount>1.67</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.57101e+18</Merchant_ID>
+    <Merchant_Name>Indianapolis Merchant 7219</Merchant_Name>
+    <Merchant_City>Indianapolis</Merchant_City>
+    <Merchant_State>IN</Merchant_State>
+    <Zip>46236</Zip>
+    <MCC>5499</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>27/07/2005 7:26</Datetime>
+    <HourOfDay>7</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>446</TotalMinutes>
+    <TransactionFrequency>224</TransactionFrequency>
+    <mean>51.78933036</mean>
+    <median>22.48</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>11600.81</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>7</Hour>
+    <DayOfMonth>27</DayOfMonth>
+    <TotalAmountPerCard>37820.6</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2005</Year>
+    <Month>11</Month>
+    <Day>18</Day>
+    <Time>01/01/1900 14:08</Time>
+    <Amount>11.12</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.91348e+18</Merchant_ID>
+    <Merchant_Name>West Linn Merchant 5860</Merchant_Name>
+    <Merchant_City>West Linn</Merchant_City>
+    <Merchant_State>OR</Merchant_State>
+    <Zip>97068</Zip>
+    <MCC>5300</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>18/11/2005 14:08</Datetime>
+    <HourOfDay>14</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>848</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>14</Hour>
+    <DayOfMonth>18</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2006</Year>
+    <Month>4</Month>
+    <Day>20</Day>
+    <Time>01/01/1900 8:25</Time>
+    <Amount>4.93</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>8.93012e+18</Merchant_ID>
+    <Merchant_Name>Honolulu Restaurant 8387</Merchant_Name>
+    <Merchant_City>Honolulu</Merchant_City>
+    <Merchant_State>HI</Merchant_State>
+    <Zip>96825</Zip>
+    <MCC>5812</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>20/04/2006 8:25</Datetime>
+    <HourOfDay>8</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>505</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>8</Hour>
+    <DayOfMonth>20</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2007</Year>
+    <Month>3</Month>
+    <Day>6</Day>
+    <Time>01/01/1900 14:17</Time>
+    <Amount>7.15</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.72291e+18</Merchant_ID>
+    <Merchant_Name>Honolulu Supermarket 4812</Merchant_Name>
+    <Merchant_City>Honolulu</Merchant_City>
+    <Merchant_State>HI</Merchant_State>
+    <Zip>96826</Zip>
+    <MCC>5411</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>06/03/2007 14:17</Datetime>
+    <HourOfDay>14</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>857</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>14</Hour>
+    <DayOfMonth>6</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2007</Year>
+    <Month>3</Month>
+    <Day>13</Day>
+    <Time>01/01/1900 8:06</Time>
+    <Amount>137.16</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-6.57142e+18</Merchant_ID>
+    <Merchant_Name>Honolulu Utility 6575</Merchant_Name>
+    <Merchant_City>Honolulu</Merchant_City>
+    <Merchant_State>HI</Merchant_State>
+    <Zip>96825</Zip>
+    <MCC>4900</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>13/03/2007 8:06</Datetime>
+    <HourOfDay>8</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>486</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>8</Hour>
+    <DayOfMonth>13</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2007</Year>
+    <Month>8</Month>
+    <Day>4</Day>
+    <Time>01/01/1900 17:58</Time>
+    <Amount>392.53</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-7.80705e+18</Merchant_ID>
+    <Merchant_Name>Maple Valley Merchant 6392</Merchant_Name>
+    <Merchant_City>Maple Valley</Merchant_City>
+    <Merchant_State>WA</Merchant_State>
+    <Zip>98038</Zip>
+    <MCC>3684</MCC>
+    <Errors>Technical Glitch</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>04/08/2007 17:58</Datetime>
+    <HourOfDay>17</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1078</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>17</Hour>
+    <DayOfMonth>4</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2008</Year>
+    <Month>3</Month>
+    <Day>9</Day>
+    <Time>01/01/1900 13:06</Time>
+    <Amount>117.54</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>7.94692e+18</Merchant_ID>
+    <Merchant_Name>Honolulu Merchant 5397</Merchant_Name>
+    <Merchant_City>Honolulu</Merchant_City>
+    <Merchant_State>HI</Merchant_State>
+    <Zip>96825</Zip>
+    <MCC>7996</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>09/03/2008 13:06</Datetime>
+    <HourOfDay>13</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>786</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>13</Hour>
+    <DayOfMonth>9</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2008</Year>
+    <Month>6</Month>
+    <Day>26</Day>
+    <Time>01/01/1900 8:57</Time>
+    <Amount>3.46</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>4.50181e+18</Merchant_ID>
+    <Merchant_Name>Honolulu Supermarket 0910</Merchant_Name>
+    <Merchant_City>Honolulu</Merchant_City>
+    <Merchant_State>HI</Merchant_State>
+    <Zip>96825</Zip>
+    <MCC>5411</MCC>
+    <Errors>Bad PIN</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>26/06/2008 8:57</Datetime>
+    <HourOfDay>8</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>537</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>8</Hour>
+    <DayOfMonth>26</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2009</Year>
+    <Month>3</Month>
+    <Day>11</Day>
+    <Time>01/01/1900 17:44</Time>
+    <Amount>174.04</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>8.38425e+17</Merchant_ID>
+    <Merchant_Name>Beaverton Merchant 3142</Merchant_Name>
+    <Merchant_City>Beaverton</Merchant_City>
+    <Merchant_State>OR</Merchant_State>
+    <Zip>97006</Zip>
+    <MCC>4814</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>11/03/2009 17:44</Datetime>
+    <HourOfDay>17</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>1064</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>17</Hour>
+    <DayOfMonth>11</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2009</Year>
+    <Month>8</Month>
+    <Day>19</Day>
+    <Time>01/01/1900 11:44</Time>
+    <Amount>113.91</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>-8.40529e+18</Merchant_ID>
+    <Merchant_Name>Beaverton Merchant 1224</Merchant_Name>
+    <Merchant_City>Beaverton</Merchant_City>
+    <Merchant_State>OR</Merchant_State>
+    <Zip>97006</Zip>
+    <MCC>5651</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>19/08/2009 11:44</Datetime>
+    <HourOfDay>11</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>704</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>11</Hour>
+    <DayOfMonth>19</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+  <row>
+    <User>729</User>
+    <Card>8</Card>
+    <Year>2009</Year>
+    <Month>10</Month>
+    <Day>26</Day>
+    <Time>01/01/1900 6:54</Time>
+    <Amount>72.0</Amount>
+    <Use_Chip>Swipe Transaction</Use_Chip>
+    <Merchant_ID>1.91752e+18</Merchant_ID>
+    <Merchant_Name>Chicago Merchant 9134</Merchant_Name>
+    <Merchant_City>Chicago</Merchant_City>
+    <Merchant_State>IL</Merchant_State>
+    <Zip>60605</Zip>
+    <MCC>5499</MCC>
+    <Errors>Insufficient Balance</Errors>
+    <Is_Fraud>0</Is_Fraud>
+    <Datetime>26/10/2009 6:54</Datetime>
+    <HourOfDay>6</HourOfDay>
+    <DayOfWeek>0</DayOfWeek>
+    <TotalMinutes>414</TotalMinutes>
+    <TransactionFrequency>112</TransactionFrequency>
+    <mean>78.76946429</mean>
+    <median>52.305</median>
+    <HasErrors>1</HasErrors>
+    <TotalAmountPerUser>8822.18</TotalAmountPerUser>
+    <IsWeekend>0</IsWeekend>
+    <Hour>6</Hour>
+    <DayOfMonth>26</DayOfMonth>
+    <TotalAmountPerCard>3723.48</TotalAmountPerCard>
+  </row>
+</data>

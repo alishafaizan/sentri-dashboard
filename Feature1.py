@@ -9,17 +9,18 @@ from datetime import datetime
 
 #Add function to get card, merchant, mcc
 def get_m():
-    df = pd.read_excel("SampleDataset02.xlsx")  # replace with your actual CSV file name
+    df = pd.read_xml("SampleDataset02.xml")
 
     # Pick a random row
     random_row = df.sample(n=1).iloc[0]
 
     # Extract Card, Merchant Name and MCC
+    random_amount = random_row['Amount']
     random_card = random_row['Card']
-    random_merchant = random_row['Merchant ID']
+    random_merchant = random_row['Merchant_ID']
     random_mcc = random_row['MCC']
 
-    return random_card, random_merchant, random_mcc
+    return random_amount, random_card, random_merchant, random_mcc
 
 #Get current hour
 def get_current_hour():
@@ -144,9 +145,8 @@ def app():
                 # Generate random rating from 1 to 5
                 user_id = st.session_state.username
                 #rating, explanation = analyze_beneficiary(user_id, name, iban)
-                card, merchant, mcc = get_m()
+                amount, card, merchant, mcc = get_m()
                 hour = get_current_hour()
-                amount = random.randint(1, 1000)
                 rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
                 #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
 

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <card>0</card>
+    <fraud_score>0.37</fraud_score>
+  </row>
+  <row>
+    <card>1</card>
+    <fraud_score>0.8</fraud_score>
+  </row>
+  <row>
+    <card>2</card>
+    <fraud_score>0.04</fraud_score>
+  </row>
+  <row>
+    <card>3</card>
+    <fraud_score>0.96</fraud_score>
+  </row>
+  <row>
+    <card>4</card>
+    <fraud_score>0.15</fraud_score>
+  </row>
+  <row>
+    <card>5</card>
+    <fraud_score>0.05</fraud_score>
+  </row>
+  <row>
+    <card>6</card>
+    <fraud_score>0.0</fraud_score>
+  </row>
+  <row>
+    <card>7</card>
+    <fraud_score>0.99</fraud_score>
+  </row>
+  <row>
+    <card>8</card>
+    <fraud_score>0.79</fraud_score>
+  </row>
+</data>

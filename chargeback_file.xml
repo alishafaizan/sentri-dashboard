@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <card>0</card>
+    <cb_score>0.23</cb_score>
+  </row>
+  <row>
+    <card>1</card>
+    <cb_score>0.63</cb_score>
+  </row>
+  <row>
+    <card>2</card>
+    <cb_score>0.69</cb_score>
+  </row>
+  <row>
+    <card>3</card>
+    <cb_score>0.99</cb_score>
+  </row>
+  <row>
+    <card>4</card>
+    <cb_score>0.32</cb_score>
+  </row>
+  <row>
+    <card>5</card>
+    <cb_score>0.02</cb_score>
+  </row>
+  <row>
+    <card>6</card>
+    <cb_score>0.97</cb_score>
+  </row>
+  <row>
+    <card>7</card>
+    <cb_score>0.36</cb_score>
+  </row>
+  <row>
+    <card>8</card>
+    <cb_score>0.84</cb_score>
+  </row>
+</data>
