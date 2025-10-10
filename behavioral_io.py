@@ -1,15 +1,19 @@
 # behavioral_io.py
 import os, requests, pandas as pd
 from datetime import datetime, timedelta
+import streamlit as st
+#SUPABASE_URL = os.environ.get("SUPABASE_URL")
+#SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 
-SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+# Supabase config
+supabase_url = st.secrets["supabase"]["url"]
+supabase_key = st.secrets["supabase"]["key"]
 
 def fetch_behavioral(hours=3, limit=200):
-    url = f"{SUPABASE_URL}/rest/v1/behavioral_events"
+    url = f"{supabase_url}/rest/v1/behavioral_events"
     hdr = {
-        "apikey": SUPABASE_KEY,
-        "Authorization": f"Bearer {SUPABASE_KEY}",
+        "apikey": supabase_key,
+        "Authorization": f"Bearer {supabase_key}",
         "Accept": "application/json",
     }
     params = {
