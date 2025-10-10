@@ -69,4 +69,38 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     df["merch_cpp_score"][0] = int(merch_cpp_score)
     
     xgbc = XGBClassifier()
-    xgbc.load_model("
+    xgbc.load_model("xgboost_model_sentri.json")
+    
+    probs = xgbc.predict_proba(df)
+    
+    df["score"] = probs[:, 1]
+    
+    prob_score = df["score"][0]
+    
+    if prob_score >= 0.8:
+        star_score = 1
+    elif prob_score >= 0.6:
+        star_score = 2
+    elif prob_score >= 0.4:
+        star_score = 3
+    elif prob_score >= 0.2:
+        star_score = 4
+    else:
+        star_score = 5
+        
+    cb_file = pd.read_xml("chargeback_file.xml")
+    fraud_file = pd.read_xml("fraud_file.xml")
+    
+    cb_score = cb_file[cb_file["card"] == card].reset_index(drop=True)["cb_score"][0]
+    fraud_score = fraud_file[fraud_file["card"] == card].reset_index(drop=True)["fraud_score"][0]
+    
+    if cb_score > 0.4 and fraud_score > 0.4:
+        explanation_string = "High Fraud, High Chargeback"
+    elif cb_score <= 0.4 and fraud_score > 0.4:
+        explanation_string = "High Fraud, Low Chargeback"
+    elif cb_score > 0.4 and fraud_score <= 0.4:
+        explanation_string = "Low Fraud, High Chargeback"
+    elif cb_score <= 0.4 and fraud_score <= 0.4:
+        explanation_string = "Low Fraud, Low Chargeback"
+    
+    return star_score, explanation_string
