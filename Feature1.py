@@ -16,7 +16,7 @@ def get_m():
 
     # Extract Card, Merchant Name and MCC
     random_amount = random_row['Amount']
-    random_card = random_row['Card']
+    random_card = random_row['User']
     random_merchant = random_row['Merchant_ID']
     random_mcc = random_row['MCC']
 
@@ -24,7 +24,7 @@ def get_m():
 
 #Get current hour
 def get_current_hour():
-    """Returns the current hour of the day (0–23)."""
+    """Returns the current hour of the day (0-23)."""
     current_time = datetime.now()
     return current_time.hour
 
@@ -144,12 +144,9 @@ def app():
 
                 # Generate random rating from 1 to 5
                 user_id = st.session_state.username
-                #rating, explanation = analyze_beneficiary(user_id, name, iban)
                 amount, card, merchant, mcc = get_m()
                 hour = get_current_hour()
                 rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
-                #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
-
                 
                 # Store in session state
                 st.session_state.current_rating = rating
