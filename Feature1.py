@@ -132,7 +132,6 @@ def app():
                 rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
                 #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
 
-                #rating = random.randint(1, 5)
                 
                 # Store in session state
                 st.session_state.current_rating = rating
