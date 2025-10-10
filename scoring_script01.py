@@ -80,4 +80,11 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     
     if cb_score > 0.4 and fraud_score > 0.4:
         explanation_string = "High Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_
+    elif cb_score <= 0.4 and fraud_score > 0.4:
+        explanation_string = "High Fraud, Low Chargeback"
+    elif cb_score > 0.4 and fraud_score <= 0.4:
+        explanation_string = "Low Fraud, High Chargeback"
+    elif cb_score <= 0.4 and fraud_score <= 0.4:
+        explanation_string = "Low Fraud, Low Chargeback"
+    
+    return star_score, explanation_string
