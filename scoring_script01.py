@@ -3,19 +3,22 @@ import pandas as pd
 from xgboost import XGBClassifier
 import warnings
 warnings.filterwarnings("ignore")
+from behavioral_io import fetch_behavioral
 
 def get_vulnerability_score(card):
-    
-    return 0.1, 0.2, 0.3, 0.4, 0.5
+    behavioral_score = fetch_behavioral()
+    score_now = behavioral_score['p_scam'].max()
+    print('max vulnerability score right now is:', score_now)
+    return score_now, 0.2, 0.3, 0.4, 0.5
 #     return risk_score1, risk_score2, risk_score3, risk_score4, risk_score5
 
 def get_merch_risk_score(merchant):
-    #testing
-    #merch_risk_df = pd.read_xml("file_name")
-    #merch_risk_df = merch_risk_df[merch_risk_df["merchant"] == merchant].reset_index(drop=True)
-
-    return 7
-#     return merch_risk_df["risk_score"][0]
+    merch_risk_df = pd.read_xml("merchant_skimming.xml")
+    try:
+        merch_risk_df = merch_risk_df[merch_risk_df["merchant_id"] == merchant].reset_index(drop=True)
+        return merch_risk_df["risk_score"][0]
+    except Exception as e:
+        return 1
 
 def get_merch_cpp_score(merchant):
     
@@ -76,15 +79,3 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     fraud_file = pd.read_xml("fraud_file.xml")
     
     cb_score = cb_file[cb_file["card"] == card].reset_index(drop=True)["cb_score"][0]
-    fraud_score = fraud_file[fraud_file["card"] == card].reset_index(drop=True)["fraud_score"][0]
-    
-    if cb_score > 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, Low Chargeback"
-    elif cb_score > 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, Low Chargeback"
-    
-    return star_score, explanation_string
