@@ -5,11 +5,15 @@ import warnings
 warnings.filterwarnings("ignore")
 from behavioral_io import fetch_behavioral
 
-def get_vulnerability_score(card):
+def get_vulnerability_score(card, device_id = "abc12345"):
     behavioral_score = fetch_behavioral()
-    score_now = behavioral_score['p_scam'].max()
-    print('Maximum vulnerability score right now is:', score_now)
-    return score_now, 0.2, 0.3, 0.4, 0.5
+    if (str(device_id) not in list(behavioral_score['device_id_hash'])):
+        return 0.1, 0.2, 0.3, 0.4, 0.5
+    else:
+        behavioral_score = behavioral_score[behavioral_score['device_id_hash'] == str(device_id)]
+        score_now = behavioral_score['p_scam'].max()
+        print('Maximum vulnerability score right now is:', score_now)
+        return score_now, 0.2, 0.3, 0.4, 0.5
 #     return risk_score1, risk_score2, risk_score3, risk_score4, risk_score5
 
 def get_merch_risk_score(merchant):
@@ -27,12 +31,16 @@ def get_merch_cpp_score(merchant):
         return merch_risk_df["scaled_score"][0]
     except Exception as e:
         return 1
+    
+    #return 0.3
+
 
 def score_transaction(card, merchant, amount, mcc, hour_of_day):
     star_score = 1
     explanation_string = ""
-    print('Will start scoring now')
+    print('will start scoring now')
     risk_score1, risk_score2, risk_score3, risk_score4, risk_score5 = get_vulnerability_score(card)
+    
     if max(risk_score1, risk_score2, risk_score3, risk_score4, risk_score5) >= 0.9:
         return 1, "Suspicious Call/Message Activity"
     print('behavioral done')
@@ -61,38 +69,4 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     df["merch_cpp_score"][0] = int(merch_cpp_score)
     
     xgbc = XGBClassifier()
-    xgbc.load_model("xgboost_model_sentri.json")
-    
-    probs = xgbc.predict_proba(df)
-    
-    df["score"] = probs[:, 1]
-    
-    prob_score = df["score"][0]
-    
-    if prob_score >= 0.8:
-        star_score = 1
-    elif prob_score >= 0.6:
-        star_score = 2
-    elif prob_score >= 0.4:
-        star_score = 3
-    elif prob_score >= 0.2:
-        star_score = 4
-    else:
-        star_score = 5
-        
-    cb_file = pd.read_xml("chargeback_file.xml")
-    fraud_file = pd.read_xml("fraud_file.xml")
-    
-    cb_score = cb_file[cb_file["card"] == card].reset_index(drop=True)["cb_score"][0]
-    fraud_score = fraud_file[fraud_file["card"] == card].reset_index(drop=True)["fraud_score"][0]
-    
-    if cb_score > 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, Low Chargeback"
-    elif cb_score > 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, Low Chargeback"
-    
-    return star_score, explanation_string
+    xgbc.load_model("x
