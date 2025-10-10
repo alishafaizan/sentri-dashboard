@@ -9,7 +9,7 @@ import streamlit as st
 supabase_url = st.secrets["supabase"]["url"]
 supabase_key = st.secrets["supabase"]["key"]
 
-def fetch_behavioral(hours=3, limit=200):
+def fetch_behavioral(hours=24, limit=200):
     url = f"{supabase_url}/rest/v1/behavioral_events"
     hdr = {
         "apikey": supabase_key,

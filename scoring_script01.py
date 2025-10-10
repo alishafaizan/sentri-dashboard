@@ -21,9 +21,12 @@ def get_merch_risk_score(merchant):
         return 1
 
 def get_merch_cpp_score(merchant):
-    
-    return 0.3
-#     return merch_cpp_score
+    print("CPP scoring")
+    try:
+        merch_risk_df = merch_risk_df[merch_risk_df["merchant"] == merchant].reset_index(drop=True)
+        return merch_risk_df["scaled_score"][0]
+    except Exception as e:
+        return 1
 
 def score_transaction(card, merchant, amount, mcc, hour_of_day):
     star_score = 1
