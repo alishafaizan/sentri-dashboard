@@ -10,6 +10,7 @@ def get_vulnerability_score(card):
 #     return risk_score1, risk_score2, risk_score3, risk_score4, risk_score5
 
 def get_merch_risk_score(merchant):
+    #testing
     #merch_risk_df = pd.read_xml("file_name")
     #merch_risk_df = merch_risk_df[merch_risk_df["merchant"] == merchant].reset_index(drop=True)
 
@@ -79,4 +80,11 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     
     if cb_score > 0.4 and fraud_score > 0.4:
         explanation_string = "High Fraud, High Chargeback"
-    elif cb_score <= 0.4 
+    elif cb_score <= 0.4 and fraud_score > 0.4:
+        explanation_string = "High Fraud, Low Chargeback"
+    elif cb_score > 0.4 and fraud_score <= 0.4:
+        explanation_string = "Low Fraud, High Chargeback"
+    elif cb_score <= 0.4 and fraud_score <= 0.4:
+        explanation_string = "Low Fraud, Low Chargeback"
+    
+    return star_score, explanation_string
