@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 from behavioral_io import fetch_behavioral
 
-def get_vulnerability_score(card, device_id = "abc12345"):
+def get_vulnerability_score(card, device_id = "abc123456"):
     behavioral_score = fetch_behavioral()
     if (str(device_id) not in list(behavioral_score['device_id_hash'])):
         return 0.1, 0.2, 0.3, 0.4, 0.5
