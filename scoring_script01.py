@@ -3,28 +3,58 @@ import pandas as pd
 from xgboost import XGBClassifier
 import warnings
 warnings.filterwarnings("ignore")
+from behavioral_io import fetch_behavioral
 
-def get_vulnerability_score(card):
-    
-    return 0.1, 0.2, 0.3, 0.4, 0.5
+def get_vulnerability_score(card, device_id = "abc123456"):
+    behavioral_score = fetch_behavioral()
+    if (str(device_id) not in list(behavioral_score['device_id_hash'])):
+        return 0.1, 0.2, 0.3, 0.4, 0.5
+    else:
+        behavioral_score = behavioral_score[behavioral_score['device_id_hash'] == str(device_id)]
+        score_now = behavioral_score['p_scam'].max()
+        print('Maximum vulnerability score right now is:', score_now)
+        return score_now, 0.2, 0.3, 0.4, 0.5
 #     return risk_score1, risk_score2, risk_score3, risk_score4, risk_score5
 
 def get_merch_risk_score(merchant):
+    merch_risk_df = pd.read_xml("merchant_skimming.xml")
+    try:
+        merch_risk_df = merch_risk_df[merch_risk_df["merchant_id"] == merchant].reset_index(drop=True)
+        return merch_risk_df["risk_score"][0]
+    except Exception as e:
+        return 1
+
+def get_merch_cpp_score(merchant):
+    print("CPP scoring")
+    try:
+        merch_risk_df = merch_risk_df[merch_risk_df["merchant"] == merchant].reset_index(drop=True)
+        return merch_risk_df["scaled_score"][0]
+    except Exception as e:
+        return 1
     
-    return 7
-#     return merch_risk_score
+    #return 0.3
+
+
 def score_transaction(card, merchant, amount, mcc, hour_of_day):
     star_score = 1
     explanation_string = ""
-    
+    print('will start scoring now')
     risk_score1, risk_score2, risk_score3, risk_score4, risk_score5 = get_vulnerability_score(card)
+    
+    if max(risk_score1, risk_score2, risk_score3, risk_score4, risk_score5) >= 0.9:
+        return 1, "Suspicious Call/Message Activity"
+    print('behavioral done')
     merch_risk_score = get_merch_risk_score(merchant)
+    print('merch risk done')
+    merch_cpp_score = get_merch_cpp_score(merchant)
+    print('cpp risk done')
+    
     col_names = ['mcc', 'hour_of_day', 'amount', 'vulnerability_score1',
        'vulnerability_score2', 'vulnerability_score3', 'vulnerability_score4',
-       'vulnerability_score5', 'merch_risk_score']
+       'vulnerability_score5', 'merch_risk_score', 'merch_cpp_score']
     col_dtypes = {'mcc' : int, 'hour_of_day' : int, 'amount' : float, 'vulnerability_score1' : float,
        'vulnerability_score2' : float, 'vulnerability_score3' : float, 'vulnerability_score4' : float,
-       'vulnerability_score5' : float, 'merch_risk_score' : int}
+       'vulnerability_score5' : float, 'merch_risk_score' : int, 'merch_cpp_score' : float}
     
     df = pd.DataFrame(columns=col_names).astype(col_dtypes)
     df["hour_of_day"] = [hour_of_day]
@@ -36,46 +66,7 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     df["vulnerability_score4"][0] = float(risk_score4)
     df["vulnerability_score5"][0] = float(risk_score5)
     df["merch_risk_score"][0] = int(merch_risk_score)
+    df["merch_cpp_score"][0] = int(merch_cpp_score)
     
     xgbc = XGBClassifier()
-    xgbc.load_model("xgboost_model_sentri.json")
-    
-    probs = xgbc.predict_proba(df)
-    
-    df["score"] = probs[:, 1]
-    
-    prob_score = df["score"][0]
-    
-    if prob_score >= 0.8:
-        star_score = 1
-    elif prob_score >= 0.6:
-        star_score = 2
-    elif prob_score >= 0.4:
-        star_score = 3
-    elif prob_score >= 0.2:
-        star_score = 4
-    elif prob_score >= 0:
-        star_score = 5
-        
-    cb_file = pd.read_excel("chargeback_file.xlsx")
-    fraud_file = pd.read_excel("fraud_file.xlsx")
-    
-    cb_score = cb_file[cb_file["card"] == card].reset_index(drop=True)["cb_score"][0]
-    fraud_score = fraud_file[fraud_file["card"] == card].reset_index(drop=True)["fraud_score"][0]
-    
-    if cb_score > 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, Low Chargeback"
-    if cb_score > 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, High Chargeback"
-    if cb_score <= 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, Low Chargeback"
-    
-    if max(risk_score1, risk_score2, risk_score3, risk_score4, risk_score5) >= 0.9:
-        return 1, "Suspicious Call/Message Activity"
-    
-    return star_score, explanation_string
-
-
-score_transaction(0, 4060646732831064559, 4.29, 5411, 12)
+    xgbc.load_model("

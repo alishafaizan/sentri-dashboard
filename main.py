@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import home, account, Feature1, ReportFraud, AccountBalance, sendamount
+import home, account, Feature1, AccountBalance, sendamount
 
 # ------------------ Page Config ------------------
 st.set_page_config(
@@ -23,8 +23,8 @@ def show_sidebar():
     with st.sidebar:
         app = option_menu(
             menu_title="ABC BANK",
-            options=["Home", "Add Beneficiary","Send Amount", "Account Balance", "Report Fraud" ,"Sign Out"],
-            icons=["house-fill", "person-fill","send-fill","cash-coin", "incognito", "box-arrow-right",],
+            options=["Home", "Add Beneficiary","Send Amount", "Account Balance", "Sign Out"],
+            icons=["house-fill", "person-fill","send-fill","cash-coin", "box-arrow-right",],
             menu_icon="chat-text-fill",
             default_index=0,
             styles={
@@ -57,8 +57,6 @@ else:
         sendamount.app()
     elif selected == "Account Balance":
         AccountBalance.app()
-    elif selected == "Report Fraud":
-        ReportFraud.app()
     elif selected == "Sign Out":
         st.session_state.authenticated = False
         st.session_state.username = None

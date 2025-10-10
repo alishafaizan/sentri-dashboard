@@ -9,37 +9,28 @@ from datetime import datetime
 
 #Add function to get card, merchant, mcc
 def get_m():
-    df = pd.read_excel("SampleDataset02.xlsx")  # replace with your actual CSV file name
-
+    df = pd.read_xml("SampleDataset02.xml")
+    print('Pulling data for model') 
     # Pick a random row
     random_row = df.sample(n=1).iloc[0]
 
     # Extract Card, Merchant Name and MCC
-    random_card = random_row['Card']
-    random_merchant = random_row['Merchant ID']
+    random_amount = random_row['Amount']
+    random_card = random_row['User']
+    random_merchant = random_row['Merchant_ID']
     random_mcc = random_row['MCC']
 
-    return random_card, random_merchant, random_mcc
+    return random_amount, random_card, random_merchant, random_mcc
 
 #Get current hour
 def get_current_hour():
-    """Returns the current hour of the day (0–23)."""
+    """Returns the current hour of the day (0-23)."""
     current_time = datetime.now()
     return current_time.hour
 
-# Add your function here at the top
-def analyze_beneficiary(username, beneficiary_name, iban):
-    """
-    Analyzes beneficiary and returns trust score and explanation.
-    Replace random logic with actual model later.
-    """
-    # Placeholder logic - replace with your actual model
-    rating = random.randint(1, 5)
-    explanation = "Model Output"
-    
-    return rating, explanation
 
 def app():
+    print('the app starts')
     st.title("Add Beneficiary")
     from utils import add_header_logo
     add_header_logo()
@@ -76,7 +67,7 @@ def app():
 
         st.warning("⚠️ Are you sure you want to add this beneficiary?")
             
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
         
         with col1:
             if st.button("✅ Yes, Add Beneficiary", use_container_width=True):
@@ -104,6 +95,24 @@ def app():
                     st.error(f"Error: {e}")
         
         with col2:
+            if st.button("⚠️ Report Fraud", use_container_width=True, type="secondary"):
+                # Store fraud report data in session
+                st.session_state.fraud_report_beneficiary = st.session_state.current_name
+                st.session_state.fraud_report_iban = st.session_state.current_iban
+                st.session_state.fraud_report_score = st.session_state.current_rating
+                
+                # Reset beneficiary state
+                st.session_state.show_confirmation = False
+                st.session_state.current_rating = None
+                st.session_state.current_explanation = None
+                st.session_state.current_name = None
+                st.session_state.current_iban = None
+                
+                # Show success message and redirect hint
+                st.warning("🚨 Fraud has been reported")
+                
+            
+        with col3:
             if st.button("❌ No, Go Back", use_container_width=True):
                 # Reset state and go back
                 st.session_state.show_confirmation = False
@@ -125,13 +134,9 @@ def app():
 
                 # Generate random rating from 1 to 5
                 user_id = st.session_state.username
-                #rating, explanation = analyze_beneficiary(user_id, name, iban)
-                card, merchant, mcc = get_m()
+                amount, card, merchant, mcc = get_m()
                 hour = get_current_hour()
-                amount = random.randint(1, 1000)
                 rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
-                #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
-
                 
                 # Store in session state
                 st.session_state.current_rating = rating
