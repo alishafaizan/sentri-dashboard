@@ -70,7 +70,7 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     elif prob_score >= 0.2:
         star_score = 4
     else:
-        return 1, "Low Fraud, Low Chargeback"
+        star_score = 5
         
     cb_file = pd.read_xml("chargeback_file.xml")
     fraud_file = pd.read_xml("fraud_file.xml")
@@ -80,11 +80,4 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     
     if cb_score > 0.4 and fraud_score > 0.4:
         explanation_string = "High Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score > 0.4:
-        explanation_string = "High Fraud, Low Chargeback"
-    elif cb_score > 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, High Chargeback"
-    elif cb_score <= 0.4 and fraud_score <= 0.4:
-        explanation_string = "Low Fraud, Low Chargeback"
-    
-    return star_score, explanation_string
+    elif cb_score <= 0.4 and fraud_
