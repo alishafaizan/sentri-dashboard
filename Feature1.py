@@ -2,7 +2,7 @@ import streamlit as st
 from firebase_config import db  # import Firestore connection
 import random
 import time
-from scoring_script01 import score_transaction
+from newscoring_script import score_transaction
 import pandas as pd
 import random
 from datetime import datetime
@@ -10,13 +10,13 @@ from datetime import datetime
 #Add function to get card, merchant, mcc
 def get_m():
     df = pd.read_xml("SampleDataset02.xml")
-
+    print('pulling data for model') 
     # Pick a random row
     random_row = df.sample(n=1).iloc[0]
 
     # Extract Card, Merchant Name and MCC
     random_amount = random_row['Amount']
-    random_card = random_row['Card']
+    random_card = random_row['User']
     random_merchant = random_row['Merchant_ID']
     random_mcc = random_row['MCC']
 
@@ -28,19 +28,9 @@ def get_current_hour():
     current_time = datetime.now()
     return current_time.hour
 
-# Add your function here at the top
-def analyze_beneficiary(username, beneficiary_name, iban):
-    """
-    Analyzes beneficiary and returns trust score and explanation.
-    Replace random logic with actual model later.
-    """
-    # Placeholder logic - replace with your actual model
-    rating = random.randint(1, 5)
-    explanation = "Model Output"
-    
-    return rating, explanation
 
 def app():
+    print('the app starts')
     st.title("Add Beneficiary")
     from utils import add_header_logo
     add_header_logo()
