@@ -76,7 +76,7 @@ def app():
 
         st.warning("⚠️ Are you sure you want to add this beneficiary?")
             
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
         
         with col1:
             if st.button("✅ Yes, Add Beneficiary", use_container_width=True):
@@ -104,6 +104,24 @@ def app():
                     st.error(f"Error: {e}")
         
         with col2:
+            if st.button("⚠️ Report Fraud", use_container_width=True, type="secondary"):
+                # Store fraud report data in session
+                st.session_state.fraud_report_beneficiary = st.session_state.current_name
+                st.session_state.fraud_report_iban = st.session_state.current_iban
+                st.session_state.fraud_report_score = st.session_state.current_rating
+                
+                # Reset beneficiary state
+                st.session_state.show_confirmation = False
+                st.session_state.current_rating = None
+                st.session_state.current_explanation = None
+                st.session_state.current_name = None
+                st.session_state.current_iban = None
+                
+                # Show success message and redirect hint
+                st.warning("🚨 Fraud has been reported")
+                
+            
+        with col3:
             if st.button("❌ No, Go Back", use_container_width=True):
                 # Reset state and go back
                 st.session_state.show_confirmation = False
@@ -125,24 +143,4 @@ def app():
 
                 # Generate random rating from 1 to 5
                 user_id = st.session_state.username
-                #rating, explanation = analyze_beneficiary(user_id, name, iban)
-                card, merchant, mcc = get_m()
-                hour = get_current_hour()
-                amount = random.randint(1, 1000)
-                rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
-                #rating, explanation = score_transaction(0,7945328079774550000,50,5411,12)
-
-                
-                # Store in session state
-                st.session_state.current_rating = rating
-                st.session_state.current_explanation = explanation
-                st.session_state.current_name = name
-                st.session_state.current_iban = iban
-                
-                
-                # Set flag to show confirmation screen
-                st.session_state.show_confirmation = True
-                st.rerun()
-                
-            else:
-                st.warning("Please enter both name and IBAN.")
+                #rating, explanation = analyze_beneficiary(user_id, na
