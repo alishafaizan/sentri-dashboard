@@ -2,7 +2,7 @@ import streamlit as st
 from firebase_config import db  # import Firestore connection
 import random
 import time
-from newscoring_script import score_transaction
+from scoring_script01 import score_transaction
 import pandas as pd
 import random
 from datetime import datetime
