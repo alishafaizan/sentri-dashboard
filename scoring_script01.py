@@ -16,60 +16,32 @@ def get_vulnerability_score(card, device_id = "abc123456"):
         return score_now, 0.2, 0.3, 0.4, 0.5
 #     return risk_score1, risk_score2, risk_score3, risk_score4, risk_score5
 
-def get_merch_risk_score(merchant):
-    merch_risk_df = pd.read_xml("merchant_skimming.xml")
-    try:
-        merch_risk_df = merch_risk_df[merch_risk_df["merchant_id"] == merchant].reset_index(drop=True)
-        return merch_risk_df["risk_score"][0]
-    except Exception as e:
-        return 1
-
-def get_merch_cpp_score(merchant):
-    print("CPP scoring")
-    try:
-        merch_risk_df = merch_risk_df[merch_risk_df["merchant"] == merchant].reset_index(drop=True)
-        return merch_risk_df["scaled_score"][0]
-    except Exception as e:
-        return 1
-    
-    #return 0.3
-
-
-def score_transaction(card, merchant, amount, mcc, hour_of_day):
+def score_transaction(card, amount, hour_of_day):
     star_score = 1
     explanation_string = ""
-    print('will start scoring now')
-    risk_score1, risk_score2, risk_score3, risk_score4, risk_score5 = get_vulnerability_score(card)
     
+    risk_score1, risk_score2, risk_score3, risk_score4, risk_score5 = get_vulnerability_score(card)
     if max(risk_score1, risk_score2, risk_score3, risk_score4, risk_score5) >= 0.9:
         return 1, "Suspicious Call/Message Activity"
-    print('behavioral done')
-    merch_risk_score = get_merch_risk_score(merchant)
-    print('merch risk done')
-    merch_cpp_score = get_merch_cpp_score(merchant)
-    print('cpp risk done')
     
-    col_names = ['mcc', 'hour_of_day', 'amount', 'vulnerability_score1',
+    col_names = ['hour_of_day', 'amount', 'vulnerability_score1',
        'vulnerability_score2', 'vulnerability_score3', 'vulnerability_score4',
-       'vulnerability_score5', 'merch_risk_score', 'merch_cpp_score']
-    col_dtypes = {'mcc' : int, 'hour_of_day' : int, 'amount' : float, 'vulnerability_score1' : float,
+       'vulnerability_score5']
+    col_dtypes = {'hour_of_day' : int, 'amount' : float, 'vulnerability_score1' : float,
        'vulnerability_score2' : float, 'vulnerability_score3' : float, 'vulnerability_score4' : float,
-       'vulnerability_score5' : float, 'merch_risk_score' : int, 'merch_cpp_score' : float}
+       'vulnerability_score5' : float}
     
     df = pd.DataFrame(columns=col_names).astype(col_dtypes)
     df["hour_of_day"] = [hour_of_day]
-    df["mcc"][0] = int(mcc)
     df["amount"][0] = float(amount)
     df["vulnerability_score1"][0] = float(risk_score1)
     df["vulnerability_score2"][0] = float(risk_score2)
     df["vulnerability_score3"][0] = float(risk_score3)
     df["vulnerability_score4"][0] = float(risk_score4)
     df["vulnerability_score5"][0] = float(risk_score5)
-    df["merch_risk_score"][0] = int(merch_risk_score)
-    df["merch_cpp_score"][0] = int(merch_cpp_score)
     
     xgbc = XGBClassifier()
-    xgbc.load_model("xgboost_model_sentri.json")
+    xgbc.load_model("xgboost_model_sentri_p2p.json")
     
     probs = xgbc.predict_proba(df)
     
@@ -86,10 +58,10 @@ def score_transaction(card, merchant, amount, mcc, hour_of_day):
     elif prob_score >= 0.2:
         star_score = 4
     else:
-        star_score = 5
+        return 5, "Low Fraud, Low Chargeback"
         
-    cb_file = pd.read_xml("chargeback_file.xml")
-    fraud_file = pd.read_xml("fraud_file.xml")
+    cb_file = pd.read_xml("Final_scripts/updated_files/chargeback_file.xml")
+    fraud_file = pd.read_xml("Final_scripts/updated_files/fraud_file.xml")
     
     cb_score = cb_file[cb_file["card"] == card].reset_index(drop=True)["cb_score"][0]
     fraud_score = fraud_file[fraud_file["card"] == card].reset_index(drop=True)["fraud_score"][0]

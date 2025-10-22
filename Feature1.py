@@ -136,7 +136,7 @@ def app():
                 user_id = st.session_state.username
                 amount, card, merchant, mcc = get_m()
                 hour = get_current_hour()
-                rating, explanation = score_transaction(card,merchant,amount,mcc,hour)
+                rating, explanation = score_transaction(card,amount,hour)
                 
                 # Store in session state
                 st.session_state.current_rating = rating
